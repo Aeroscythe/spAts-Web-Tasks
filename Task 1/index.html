@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="Style.css">
+        <title>
+            Task 1 spats webD
+        </title>
+    </head>
+
+    <body>
+        <header>
+            <img src="imgs/kgp logo.png" alt="kgp logo" height="110px" width="110px">
+            <img src="/Imgs/Stup India.png" alt="Stup India" width="310px" style="position: absolute; right: 10px; top: 20px;">
+        </header>
+        <form>
+            <fieldset>
+                <legend><b>Student details</b></legend><br>
+                
+                <label for="Name"> <b><i>Name: </i></b></label> <input type="text" id="Name" name="Name" placeholder="Name as in ERP" required>    <br><br>
+                <label for="Roll"> <b><i>Roll Number: </i></b></label> <input type="text" id="Roll" name="Roll" placeholder="Roll Number" required>    <br><br>
+                <label for="Mail"> <b><i>E-mail Address: </i></b></label> <input type="email" id="Mail" name="Mail" placeholder="Personal mail ID" required>    <br><br>
+                
+                <b><I>Gender: </I>&emsp; </b> 
+                <input type="radio" name="gender" id="male" value="Male"><label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="Female"><label for="female">Female</label>     <br><br>
+                
+                <label for="Dep"> <b><i>Department: </i></b></label> <input type="text" id="Dep" name="Dep" placeholder="Department Code">    <br><br>
+                
+                <b><i>Education: </i></b>
+                <select name="Year" id="Year">
+                    <option value="UG">UG</option>
+                    <option value="PG">PG</option>
+                    <option value="PhD">PhD</option>
+                </select>
+            </fieldset><br><br>
+
+            <fieldset>
+                <legend><b>Startup details</b></legend>
+                
+                <p class="IdeaTxt">
+                    <label for="idea"> <b><i>Summary: </i></b></label>
+                    <textarea name="idea" id="idea" cols="70" rows="10" placeholder="Describe your startup idea" required></textarea>    <br><br>
+                </p>
+                <label for="Fund"> <b><i>Funding required: </i></b></label> <input type="number" id="Fund" name="Fund" placeholder="In Thousand INR" required>    <br><br>                
+            </fieldset><br><br>
+
+            <input type="submit" value="Submit request" onclick="alert('Form submitted succefully!')">
+            <input type="reset">
+        </form>
+    </body>
+</html>

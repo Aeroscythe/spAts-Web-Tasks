@@ -1,0 +1,35 @@
+body{
+    background: #85bfd654;
+    margin: 0px;
+}
+
+header{
+    margin: 10px;
+    vertical-align: middle;
+}
+
+form{
+    margin: 10px;
+}
+
+.IdeaTxt *{
+    vertical-align: middle;
+}
+
+input[type = "text"], input[type = "email"]{
+    margin: 3px;
+    padding: 4px;
+    width: 350px;
+}
+
+input[type = "radio"]{
+    cursor: pointer;
+}
+
+select{
+    cursor: pointer;
+}
+
+label{
+    cursor: pointer;
+}
