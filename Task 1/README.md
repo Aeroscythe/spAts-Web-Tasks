@@ -12,7 +12,7 @@ Another one? Well, yes. This is the Task specific Readme.
 > 4. Add images, or logos (startup India), etc according to your wish.
 > 5. Upload on Github and explore how to host your website on Github.
 
-So, going over all the stuff;
+So, going over all the stuff:
 
 - [X] The HTML is done, might push some changes if I end up adding something.
 - [ ] The styling is kind of meh, will work on that further. I don't plan to make it excessive since well, the task asks for a formal form.
